@@ -10,8 +10,9 @@ A beginner-level experiment: fine-tuning TinyLLaMA with LoRA on Alpaca data unde
 ## 项目内容概览
 
 - `训练脚本`：包含用于微调的核心代码与配置参数  
-- `checkpoints/`：部分训练轮次保存的模型权重  
+- `training_output`：部分训练轮次保存的模型权重  
 - `基于LoRA的TinyLlama微调实验_实验报告.md`：完整记录了训练过程、参数设置、loss / perplexity 分析与个人反思
+- `learning_notes`：学习笔记，涵盖数据集格式、超参数基础、LoRA配置及训练参数的理解与探索
 
 ## 注意事项
 
@@ -20,4 +21,5 @@ A beginner-level experiment: fine-tuning TinyLLaMA with LoRA on Alpaca data unde
 
 ---
 
-如需进一步了解训练细节与分析，请阅读 [`基于LoRA的TinyLlama微调实验_实验报告.md`]。
+如需进一步了解训练细节与分析，请阅读 [基于LoRA的TinyLlama微调实验_实验报告.md]。
+学习笔记内容请见 learning_notes 文件夹。
