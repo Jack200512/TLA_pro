@@ -12,7 +12,7 @@ A beginner-level experiment: fine-tuning TinyLLaMA with LoRA on Alpaca data unde
 - `训练脚本`：包含用于微调的核心代码与配置参数  
 - `training_output`：部分训练轮次保存的模型权重  
 - `基于LoRA的TinyLlama微调实验_实验报告.md`：完整记录了训练过程、参数设置、loss / perplexity 分析与个人反思
-- `learning_notes`：学习笔记，涵盖数据集格式、超参数基础、LoRA配置及训练参数的理解与探索
+- `learning_notes`：学习笔记，包含常见数据集格式及特点、数据预处理与格式化、多轮对话记忆机制、超参数基础知识、模型结构与 tokenizer 关系、PEFT 与 LoRA 配置详解，以及训练代码实例分析和后续学习计划。
 
 ## 注意事项
 
